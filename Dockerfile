@@ -19,3 +19,4 @@ COPY plug.vim ${WORKSPACE}/.vim/autoload/plug.vim
 
 RUN vim +PlugInstall +qall 
 
+CMD ["vim"]
